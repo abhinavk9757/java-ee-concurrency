@@ -50,7 +50,7 @@ public class ReportResource {
             Logger.getLogger(ReportResource.class.getName()).log(Level.SEVERE, null, ex);
         }
         dataSource.setUser("root");
-        dataSource.setPassword("the3trinity");
+        dataSource.setPassword("root");
         dao = new BankAccountDao(dataSource);
     }
     
